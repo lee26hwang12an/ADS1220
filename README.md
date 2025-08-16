@@ -50,8 +50,8 @@ void setup()
 
     forceSensor.configReg0 = 0x08;
     forceSensor.configReg1 = 0x04;
-    forceSensor.configReg0 = 0x10;
-    forceSensor.configReg0 = 0x00;
+    forceSensor.configReg2 = 0x10;
+    forceSensor.configReg3 = 0x00;
 
     // This writes to the ADS1220's registers, then read as confirmation
     forceSensor.updateRegisters();
@@ -67,8 +67,8 @@ void setup()
 
     forceSensor.configReg0 = 0x08;
     forceSensor.configReg1 = 0x04;
-    forceSensor.configReg0 = 0x10;
-    forceSensor.configReg0 = 0x00;
+    forceSensor.configReg2 = 0x10;
+    forceSensor.configReg3 = 0x00;
 
     // The above configurations, if different from 0x00,  will be written to the ADS1220
     while (forceSensor.init() != ADS1220flag::noErrors);
