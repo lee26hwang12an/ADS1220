@@ -1,6 +1,7 @@
 # Texas Instruments' ADS1220 24-bit ADC
 
-Standalone Library for TI's ADS1220.
+Standalone Library for TI's ADS1220. Below, images of APICOO Robotics' Force Sensor based on this ADC IC:
+<div align="center"><img src="Examples/apicooForceSensor.png" alt="Darstellar PSU" width="1000"/></div>
 
 
 #
